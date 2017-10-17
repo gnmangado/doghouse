@@ -1,0 +1,23 @@
+<plugin name='dto' version='0.2.4' grailsVersion='1.1 &gt; *'>
+  <author>Peter Ledbrook</author>
+  <title>DTO plugin for Grails</title>
+  <description>\
+Manually creating and managing DTO objects for your domain classes is
+labour intensive and error-prone. This plugin aims to simplify DTOs
+by automatically generating them and providing a mechanism to easily
+map domain class instances to DTO instances.
+</description>
+  <documentation>http://grails.org/plugin/dto</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies />
+  <behavior>
+    <method name='toDTO' artefact='Domain' type='java.util.Collection'>
+      <description />
+      <argument type='java.lang.Object' />
+    </method>
+  </behavior>
+</plugin>

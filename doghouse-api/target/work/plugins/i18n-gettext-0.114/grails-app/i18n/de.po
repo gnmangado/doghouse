@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR AUTHOR
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 09:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:57
+msgid "de"
+msgstr ""
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:64
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:70
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:73
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:126
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:128
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:143
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:145
+msgid "foo"
+msgid_plural "foos"
+msgstr[0] "schnick"
+msgstr[1] "schnicks"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:76
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:79
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:131
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:135
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:148
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:152
+msgid "foo{0}"
+msgid_plural "foos{1}"
+msgstr[0] "schnick{0}"
+msgstr[1] "schnicks{1}"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:82
+msgid "foo{0} and {1}"
+msgstr "schnick{0} und {1}"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:102
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:169
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:175
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:133
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:137
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:150
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:154
+msgid "foo{2}"
+msgid_plural "foos{3}"
+msgstr[0] "schnick{2}"
+msgstr[1] "schnicks{3}"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:182
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:190
+msgid "fish (verb)"
+msgstr "angeln"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:184
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:192
+msgid "fish (noun)"
+msgstr "Fisch"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:198
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:201
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:204
+msgid "bar"
+msgstr "schnack"
+
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:208
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:211
+#: /Users/rainer/Documents/workspace/grails-i18n-gettext/test/integration/T9nServiceTests.groovy:214
+msgid "baz"
+msgstr "schnuck"
+
+#~ msgid "foomark"
+#~ msgstr "schnickmark"

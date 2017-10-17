@@ -1,0 +1,15 @@
+<plugin name='mlapi' version='2.4.40' grailsVersion='2.3.0 &gt; *'>
+  <author>Jonathan Leibiusky</author>
+  <authorEmail>ionathan@gmail.com</authorEmail>
+  <title>MercadoLibre API Grails Plugin</title>
+  <type>MlapiGrailsPlugin</type>
+  <resources>
+    <resource>MLBootStrap</resource>
+    <resource>MercadoLibreAPIFilters</resource>
+    <resource>MlapiUrlMappings</resource>
+    <resource>spring.resources</resource>
+    <resource>com.ml.controllers.ApistatusController</resource>
+    <resource>com.ml.controllers.ErrorController</resource>
+    <resource>com.ml.controllers.MercadoLibreAPIController</resource>
+  </resources>
+</plugin>
