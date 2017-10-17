@@ -19,7 +19,9 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+        </datasource-map>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -191,6 +193,10 @@
           <root url="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/net.java.dev.jna/jna/jars/jna-4.0.0.jar!/" />
           <root url="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/org.apache.ant/ant-junit/jars/ant-junit-1.8.4.jar!/" />
           <root url="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.sdkman/candidates/grails/2.4.5/lib/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/net/sf/dozer/dozer/5.1/dozer-5.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
